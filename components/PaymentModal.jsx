@@ -16,19 +16,17 @@ export default function PaymentModal({ open, setOpen, selected, modalRef }) {
     <AnimatePresence>
       {open && (
         <motion.div
-          className="fixed inset-0 z-50 grid place-items-center p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <div className="absolute inset-0 bg-black/70" />
           <motion.div
-            ref={modalRef}
-            initial={{ opacity: 0, y: 12, scale: 0.98 }}
+            initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 12, scale: 0.98 }}
-            transition={{ duration: 0.2 }}
-            className="relative w-full max-w-md rounded-3xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl"
+            exit={{ opacity: 0, y: 20, scale: 0.95 }}
+            transition={{ duration: 0.25 }}
+            className="relative w-full max-w-md mx-auto rounded-3xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl"
           >
             {/* Header */}
             <div className="flex items-start justify-between gap-4">
@@ -54,9 +52,9 @@ export default function PaymentModal({ open, setOpen, selected, modalRef }) {
             {/* Payment Method */}
             <div className="mt-6 space-y-3 text-sm">
               <p className="text-neutral-300 font-medium">Payment Method:</p>
-              <p className="text-neutral-400">Send payment to this wallet address:</p>
+              <p className="text-neutral-400">Send the payment on the Tron (TRC20) network to the above wallet address:</p>
 
-              <div className="flex bg-neutral-800 rounded-md items-center gap-2 mt-2 px-3 py-2">
+              <div className="flex bg-neutral-800 rounded-lg items-center gap-2 mt-2 px-3 py-2">
                 <span className="font-mono text-sm text-gray-100 truncate">
                   TXCWGXe1DKZPK8G4QPZdmVKFRMQyFYqkpr
                 </span>
