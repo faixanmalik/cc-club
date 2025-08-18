@@ -12,16 +12,16 @@ const Hero = () => {
         className="rounded-3xl border border-neutral-800 bg-gradient-to-br from-neutral-900 to-neutral-950 p-8 md:p-12 shadow-2xl shadow-black/30"
       >
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          Premium dark design, yellow highlights,<span className="text-yellow-400"> responsive</span> & fast.
+          Premium Virtual Cards for <span className="text-yellow-400">Smart & Secure Payments</span>
         </h2>
         <p className="mt-3 text-neutral-300 max-w-2xl">
-          Use this template for a <span className="font-semibold">legal</span> digital store: memberships, templates, courses, support plans—anything compliant. Smooth animations, modern UI, and a clean purchase flow.
+          Experience the freedom of instant, compliant, and reliable <span className="font-semibold">digital cards.</span> Built with a sleek dark design, yellow highlights, and a smooth purchase flow—perfect for <span className="font-semibold">memberships, templates, courses, or support plans.</span> 
         </p>
         <div className="mt-6 flex flex-wrap gap-3 text-xs text-neutral-300">
-          <Badge>Mobile‑first</Badge>
-          <Badge>Click‑outside modal</Badge>
-          <Badge>Framer Motion</Badge>
-          <Badge>SEO‑friendly</Badge>
+          <Badge>💳 Instant Virtual Card Setup</Badge>
+          <Badge>🌍 Global Access</Badge>
+          <Badge>⚡ Lightning-fast Transactions</Badge>
+          <Badge>🔒 Bank-level Security & Compliance</Badge>
         </div>
       </motion.div>
     </section>
