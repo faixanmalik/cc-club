@@ -52,11 +52,11 @@ export default function PaymentModal({ open, setOpen, selected, modalRef }) {
             {/* Payment Method */}
             <div className="mt-6 space-y-3 text-sm">
               <p className="text-neutral-300 font-medium">Payment Method:</p>
-              <p className="text-neutral-400">Send the payment on the Tron (TRC20) network to the above wallet address:</p>
+              <p className="text-neutral-400">Send the payment on the Binance Smart Chain (Bep20) Network to the above wallet address:</p>
 
               <div className="flex bg-neutral-800 rounded-lg items-center gap-2 mt-2 px-3 py-2">
                 <span className="font-mono text-sm text-gray-100 truncate">
-                  TXCWGXe1DKZPK8G4QPZdmVKFRMQyFYqkpr
+                  0x94e3b3eae565df8147a682285cc7a8d675e68273
                 </span>
                 <button
                   onClick={handleCopy}
