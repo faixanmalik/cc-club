@@ -7,7 +7,7 @@ export default function PaymentModal({ open, setOpen, selected, modalRef }) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("TXCWGXe1DKZPK8G4QPZdmVKFRMQyFYqkpr");
+    navigator.clipboard.writeText("0x94e3b3eae565df8147a682285cc7a8d675e68273");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000); // revert after 2s
   };
