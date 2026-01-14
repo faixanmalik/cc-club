@@ -5,9 +5,10 @@ import { Copy, Check } from "lucide-react";
 
 export default function PaymentModal({ open, setOpen, selected, modalRef }) {
   const [copied, setCopied] = useState(false);
+  const address = "0x7BA3FE62398ba79503CBc18b47E253Ee7ba6a480"
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("0x94e3b3eae565df8147a682285cc7a8d675e68273");
+    navigator.clipboard.writeText(address);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000); // revert after 2s
   };
@@ -56,7 +57,7 @@ export default function PaymentModal({ open, setOpen, selected, modalRef }) {
 
               <div className="flex bg-neutral-800 rounded-lg items-center gap-2 mt-2 px-3 py-2">
                 <span className="font-mono text-sm text-gray-100 truncate">
-                  0x94e3b3eae565df8147a682285cc7a8d675e68273
+                  {address}
                 </span>
                 <button
                   onClick={handleCopy}
