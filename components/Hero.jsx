@@ -15,7 +15,7 @@ const Hero = () => {
           {/* Premium Virtual Cards for <span className="text-yellow-400">Smart & Secure Payments</span> */}
           Premium Virtual Cards (BINs) for Smart & Secure Payments
         </h2>
-        <p className="mt-3 text-neutral-300 max-w-2xl">
+        <p className="mt-3 text-neutral-300 max-w-xl">
           {/* Experience the freedom of instant, compliant, and reliable <span className="font-semibold">digital cards.</span> Built with a sleek dark design, yellow highlights, and a smooth purchase flow—perfect for <span className="font-semibold">memberships, templates, courses, or support plans.</span>  */}
           Verified BINs for Meta Ads, USDT purchases, TikTok and global platforms. Stable, secure, and trusted by 1000+ Happy customers
 
