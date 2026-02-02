@@ -5,7 +5,7 @@ import { Copy, Check } from "lucide-react";
 
 export default function PaymentModal({ open, setOpen, selected, modalRef }) {
   const [copied, setCopied] = useState(false);
-  const address = "0x7BA3FE62398ba79503CBc18b47E253Ee7ba6a480"
+  const address = "0x94e3b3eae565df8147a682285cc7a8d675e68273"
 
   const handleCopy = () => {
     navigator.clipboard.writeText(address);

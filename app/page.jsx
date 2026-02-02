@@ -64,7 +64,7 @@ const REGULAR_CARDS = [
   },
   {
     id: "regular-5",
-    name: "Virtual Credit Card (Medas Buy)",
+    name: "Virtual Credit Card (Midas-buy)",
     price: 30,
     balance: 1127,
     img: "/images/image-2.jpg",
